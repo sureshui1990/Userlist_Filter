@@ -10,6 +10,50 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(10px + 1.5vmin);
   color: white;
+  padding-top: 3rem;
+}
+.App-header > div{
+  min-width:40%;
+}
+select{
+  padding:.3rem;border:1px solid #f1f1f1;
+  margin: 0 .5rem;cursor: pointer;
+}
+
+button{
+  border: 1px solid #ed447c;
+  padding: .4rem 1rem;
+  background-color: #f05;
+  color: #fff;
+  margin: 0 1rem;
+  border-radius: 3px;
+  outline: none;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.user-list{
+  padding:0;
+}
+.user-list li {
+    display: block;
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: 5px;
+    background-color: #f05;
+    margin: 1rem 0;
+    box-sizing: border-box;
+}
+.user-list li > div{
+  margin:.5rem 0;
+  text-align:left;
+}
+.user-list img{
+  vertical-align: middle;
+}
+.user-list li b{
+  color: #baaaaf;
+  display: inline-block;
+  min-width: 8rem;margin-right:1rem;
 }

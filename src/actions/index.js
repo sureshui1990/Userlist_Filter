@@ -20,3 +20,16 @@ export const isFailure = err => {
     }
 }
 
+export const userDataFilter = data => {
+    return {
+    type: 'USER_DATA_FILTER',
+    payload: data
+    }
+}
+export const userDataRest = data => {
+    return {
+    type: 'USER_DATA_RESET',
+    payload: data
+    }
+}
+
